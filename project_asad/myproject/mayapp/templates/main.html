@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% block content %}
+
+{% load static %}
+{% include 'asidebar.html' %}
+<div class="content">
+    <div class="container mt-3">
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="{% static 'img/fresh-healthy-green-weight-loss.jpg'%}" alt="Card image" style="width:100%">
+
+        <div class="card-body">
+          <h4 class="card-title">GREEN APPLE</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div> 
+
+      <br>
+
+      <div class="container mt-3"></div>
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="{% static 'img/apple-6751504_960_720.jpg'%}" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title">RED APPLE</h4>
+              <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div> 
+          </div>
+      </div>
+{% endblock %}
