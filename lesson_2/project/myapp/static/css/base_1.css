@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+.asad1{
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+}
+.img1{
+	width: 200px;
+	height: 200px;
+}
+.img1:hover{
+	transform:rotate(0deg) scale(2.1) ;
+	transition: 1s;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col-sm-5 img{
+	margin-left: 10px;
+	margin-top: -30px;
+}
+.asad{
+	margin: 20px;
+	margin-top: 60px;
+}
+.asad{
+	margin-left: 230px;
+}
+.hh{
+	margin-left: -150px;
+}
+.iconca{
+	display: flex;
+	margin-top: 30px;
+	margin-left: 100px;
+}
+.iconca1{
+	display: flex;
+	margin-top: 80px;
+	margin-left: 100px;
+}
+.button:hover{
+  background-color: red;
+  color: white;
+}
+.button:active{
+	background-color: black;	
+}
